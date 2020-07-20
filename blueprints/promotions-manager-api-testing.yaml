@@ -9,7 +9,7 @@ clouds:
   
 artifacts:
   - promotions-manager-api-external: artifacts/latest/promotions-manager-api.tar.gz
-  - mongodb: artifacts/latest/test-db.tar.tz
+  - mongodb: artifacts/latest/test-db.tar.gz
 
 inputs:
 - API_PORT: 3001
