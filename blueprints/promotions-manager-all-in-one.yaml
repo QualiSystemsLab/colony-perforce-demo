@@ -5,12 +5,12 @@ metadata:
     All in one deployment of our promotions manager
     
 clouds: 
-  - azure 4: westeurope
+  - azure: uswest2
   
 artifacts:
-  - promotions-manager-ui:
-  - promotions-manager-api:
-  - mongodb: artifacts/test-data/test-data-db.tar
+  - promotions-manager-ui: artifacts/latest/promotions-manager-ui.tar.gz
+  - promotions-manager-api: artifacts/latest/promotions-manager-api.tar.gz
+  - mongodb: artifacts/latest/test-db.tar.gz
 
 inputs:
 - PORT: 3000
